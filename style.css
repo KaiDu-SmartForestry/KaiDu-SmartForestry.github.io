@@ -28,7 +28,7 @@ footer {
 .profile {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
     border-bottom: 2px solid #444;
     padding-bottom: 20px;
     margin-bottom: 30px;
@@ -47,6 +47,10 @@ footer {
 
 .profile-right h1 {
     margin-top: 0;
+}
+
+.profile-text {
+    text-align: left;  /* ✅ 强制左对齐 */
 }
 
 @media (max-width: 600px) {
