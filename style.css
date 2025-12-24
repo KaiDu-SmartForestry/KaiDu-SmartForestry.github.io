@@ -25,13 +25,15 @@ footer {
     font-size: 0.9em;
 }
 
+body {
+    background-color: #fffbe6;
+}
+
 .profile {
     display: flex;
     align-items: center;
     gap: 40px;
-    border-bottom: 2px solid #444;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .profile-left {
@@ -39,18 +41,22 @@ footer {
 }
 
 .profile-photo {
-    width: 220px;
+    width: 220px;          
     height: auto;
     border-radius: 8px;
-    border: 1px solid #ccc;
+}
+
+.profile-right {
+    text-align: left !important; 
 }
 
 .profile-right h1 {
-    margin-top: 0;
+    margin-bottom: 10px;
 }
 
-.profile-text {
-    text-align: left;  /* ✅ 强制左对齐 */
+.profile-right p {
+    margin: 6px 0;
+    font-size: 16px;
 }
 
 @media (max-width: 600px) {
@@ -59,9 +65,3 @@ footer {
         text-align: center;
     }
 }
-
-body {
-    background-color: #fffbe6;
-}
-
-
