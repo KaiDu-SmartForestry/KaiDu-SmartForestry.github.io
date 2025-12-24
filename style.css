@@ -41,9 +41,10 @@ body {
 }
 
 .profile-photo {
-    width: 220px;          
+    width: 220px;     
     height: auto;
     border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .profile-right {
@@ -59,9 +60,20 @@ body {
     font-size: 16px;
 }
 
+header.profile {
+    text-align: left;
+}
+
+
 @media (max-width: 600px) {
     .profile {
         flex-direction: column;
-        text-align: center;
+        align-items: center;
+    }
+
+    .profile-right {
+        text-align: left;
+        margin-top: 15px;
     }
 }
+
